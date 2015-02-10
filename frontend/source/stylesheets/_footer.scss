@@ -1,12 +1,11 @@
-/*
-    Document   : frontend/source/stylesheets/_footer．scss
-    Created on : 2015-02-10 02:20 PM
-    Author     : GrilloPress
-    Description:
-    Purpose of the stylesheet follows.
-    To change this template use Tools | Templates.
-*/
-
-root {
-    display: block;
+footer {
+  
+  background-color: #D2D2D2;
+  padding: 20px;
+  font-size: 14px;
+  font-family: $font-family-sans-serif;
+  
+  p {
+    margin: 0;
+  }
 }
