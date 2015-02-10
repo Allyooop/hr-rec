@@ -9,8 +9,8 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Welcome Emissary" %></title>
     
-    <%= stylesheet_link_tag "main" %>
-    <%= javascript_include_tag  "main" %>
+    <%= stylesheet_link_tag "main", media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag  "main", 'data-turbolinks-track' => true %>
      <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
